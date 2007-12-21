@@ -8,6 +8,7 @@ URL:		http://silicon-verl.de/home/flo/software/pamcifs.html
 Source:		%{name}-%{version}.tar.bz2
 BuildRequires:	pam-devel
 BuildRequires:	perl
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 pam_storepw is a PAM module to store the user's password. It is used to
