@@ -1,7 +1,7 @@
 Summary:	Pluggable Authentication Module for storing user password
 Name:		mille-xterm-pam-storepw
 Version:	1.0
-Release:	%mkrel 3
+Release:	%mkrel 5
 License:	GPL
 Group:		Networking/Other
 URL:		http://silicon-verl.de/home/flo/software/pamcifs.html
