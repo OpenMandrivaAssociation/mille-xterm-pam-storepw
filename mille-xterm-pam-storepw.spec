@@ -44,3 +44,39 @@ rm -rf %{buildroot}
 %dir /var/run/pw
 
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0-7mdv2011.0
++ Revision: 620335
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.0-6mdv2010.0
++ Revision: 430033
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 1.0-5mdv2009.0
++ Revision: 252465
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.0-3mdv2008.1
++ Revision: 136579
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue Sep 18 2007 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-3mdv2008.0
++ Revision: 89930
+- rebuild
+
+
+* Thu Feb 08 2007 Oden Eriksson <oeriksson@mandriva.com> 1.0-2mdv2007.0
++ Revision: 117841
+- bump release
+- it needs fpic on x86_64
+- Import mille-xterm-pam-storepw
+
+* Fri Sep 29 2006 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdk
+- initial Mandriva package (mille-xterm import)
+
