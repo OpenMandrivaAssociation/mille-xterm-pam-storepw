@@ -4,7 +4,7 @@ Version:	1.0
 Release:	%mkrel 7
 License:	GPL
 Group:		Networking/Other
-URL:		http://silicon-verl.de/home/flo/software/pamcifs.html
+URL:		https://silicon-verl.de/home/flo/software/pamcifs.html
 Source:		%{name}-%{version}.tar.bz2
 BuildRequires:	pam-devel
 BuildRequires:	perl
