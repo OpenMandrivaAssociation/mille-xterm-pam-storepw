@@ -6,6 +6,7 @@ License:	GPL
 Group:		Networking/Other
 URL:		https://silicon-verl.de/home/flo/software/pamcifs.html
 Source:		%{name}-%{version}.tar.bz2
+BuildRequires:	make
 BuildRequires:	pam-devel
 BuildRequires:	perl
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
